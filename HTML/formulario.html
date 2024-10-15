@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link rel="icon" href="../img/Nucba_logo2.png">
+</head>
+<body>
+    <header>
+        <h2>Ejercicio 3</h2>
+    </header>
+    <hr>
+    <main>
+        <h1>Formulario de registro</h1>
+        <form>
+            <section>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+            </section>
+            <br>
+            <section>
+                <label for="apellido">Apellido:</label>
+                <input type="text" name="apellido" id="apellido" required>
+            </section>
+            <br>
+            <section>
+                <span>Modalidad de cursada:</span>
+                <input type="radio" name="modalidad" id="On-demand" value="On-demand" required>
+                <label for="On-demand">On-demand</label>
+                <input type="radio" name="modalidad" id="En-vivo" value="En-vivo">
+                <label for="En-vivo">En vivo</label>
+            </section>
+            <br>
+            <section>
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" id="correo" required>
+            </section>
+            <br>
+            <section>
+                <input type="checkbox" name="notis" id="notis" checked>
+                <label for="notis">Deseo recibir información sobre nuevos posteos en la plataforma de Nucba.</label>
+                <br>
+                <br>
+                <input type="checkbox" name="TyC" id="TyC" required>
+                <label for="TyC">Declaro que lei los terminos y condiciones y estoy listo para convertime en desarrollador web Full Stack.</label>
+            </section> 
+            <br>
+            <section>
+                <button type="submit">Enviar</button>
+                <button type="reset">↻</button> <!--no lo pedian,pero supongo que no jode-->
+            </section>          
+        </form>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <nav>
+            <h2>Otros ejercicios</h2>
+            <ul>
+                <li>
+                    <a href="./listas.html">Ejercicio 1</a>
+                </li>
+                <br>
+                <li>
+                    <a href="listas_anidadas.html">Ejercicio 2</a>
+                </li>
+                <br>
+                <li>
+                    <a href="../index.html">Volver al inicio</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
